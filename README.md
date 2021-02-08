@@ -1,47 +1,46 @@
 
-  # 1234  
+# ez-readme  
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+## About
 
-  ## About
+## Table of Contents
 
-  ## Table of Contents
-  
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Contributions](#Contributions)
-  * [Testing](#Testing)
-  * [Credits](#Credits) 
-    * [License](#License)
-  * [Contact](#Contact)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
+* [Testing](#Testing)
+* [Credits](#Credits) 
+* [License](#License)
+* [Contact](#Contact)
 
-  ## Installation
+## Installation
 
-  1234
 
-  ## Usage
 
-  1234
+## Usage
 
-  ## Contributions
 
-  1324
 
-  ## Testing
+## Contributions
 
-  1234
 
-  ## Credits
 
-  1234
+## Testing
 
-  ## License:
+adfs
+
+## Credits
+
+asdf
+
+## License:
   
   This project is licensed under the MIT
 
-  ## Contact
+## Contact
 
-  You can view my GitHub profile at [github.com/1234](https://github.com/1234)
+You can view my GitHub profile at [github.com/jacob-af](https://github.com/jacob-af)
 
-  If you have any questions, comments, or suggestions you can send email to <1234>.
+If you have any questions, comments, or suggestions you can send email to <jfeitler@gmail.com>.
 

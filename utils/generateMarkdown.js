@@ -13,7 +13,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "none") {
     return `
-    * [License](#License)`;
+* [License](#License)
+`;
   } else {
     return "";
   }
@@ -24,56 +25,54 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return `## License:
   
-  This project is licensed under the ${license}`;
+This project is licensed under the ${license} license.`;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}  
+# ${data.title}  
+${renderLicenseBadge(data.license)}
 
-  ${renderLicenseBadge(data.license)}
+## About
 
-  ## About
+## Table of Contents
 
-  ## Table of Contents
-  
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Contributions](#Contributions)
-  * [Testing](#Testing)
-  * [Credits](#Credits) ${renderLicenseLink(data.license)}
-  * [Contact](#Contact)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
+* [Testing](#Testing)
+* [Credits](#Credits) ${renderLicenseLink(data.license)}
+* [Contact](#Contact)
 
-  ## Installation
+## Installation
 
-  ${data.installation}
+${data.installation}
 
-  ## Usage
+## Usage
 
-  ${data.usage}
+${data.usage}
 
-  ## Contributions
+## Contributions
 
-  ${data.contributions}
+${data.contributions}
 
-  ## Testing
+## Testing
 
-  ${data.tests}
+${data.tests}
 
-  ## Credits
+## Credits
 
-  ${data.credits}
+${data.credits}
 
-  ${data.license !== "none" ? renderLicenseSection(data.license) : ""}
+${data.license !== "none" ? renderLicenseSection(data.license) : ""}
+## Contact
 
-  ## Contact
-
-  You can view my GitHub profile at [github.com/${
+You can view my GitHub profile at [github.com/${
     data.github
   }](https://github.com/${data.github})
 
-  If you have any questions, comments, or suggestions you can send email to <${
+If you have any questions, comments, or suggestions you can send email to <${
     data.email
   }>.
 

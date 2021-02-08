@@ -1,8 +1,9 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 import inquirer from "inquirer";
 import fs from "fs";
 import generateMarkdown from "./utils/generateMarkdown.js";
-// TODO: Create an array of questions for user input
+
+// Create an array of questions for user input
 const questions = [
   {
     type: "input",
@@ -43,14 +44,7 @@ const questions = [
     type: "list",
     message: "Is this software under any license?",
     name: "license",
-    choices: [
-      "none",
-      "MIT",
-      "GNU Public License",
-      "Apache License",
-      "BSD License",
-      "ISC License",
-    ],
+    choices: ["none", "MIT", "GPL", "Apache", "BSD", "ISC"],
   },
   {
     type: "input",
@@ -64,6 +58,7 @@ const questions = [
   },
 ];
 
+//
 const inquiry = async (questions) => {
   let answer = await inquirer.prompt(questions);
   console.log(answer);
@@ -83,7 +78,6 @@ const inquiry = async (questions) => {
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  console.log(fileName, data);
   fs.writeFile(fileName, generateMarkdown(data), (err) => {
     err ? console.log(err) : console.log("Readme Successfully Created");
   });
@@ -91,14 +85,15 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 const init = async () => {
-  let fileName = "README.md";
+  let fileName = "sampleREADME.md";
   // Greet User
   console.log(
-    "Thank you for choosing EZ-Readme to create an awesome README.md"
+    "Thank you for choosing EZ-Readme to create your sampleREADME.md"
   );
   try {
     let answers = await inquiry(questions);
     writeToFile(fileName, answers);
+    console.log("Thank you for using EZ-Readme");
   } catch (err) {
     (err) => console.log(err);
   }
