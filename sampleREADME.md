@@ -1,47 +1,48 @@
+# ez-readme
 
-# ez-readme  
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## About
 
+Creates a thorough readme file in Markdown language
+
 ## Table of Contents
 
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contributions](#Contributions)
-* [Testing](#Testing)
-* [Credits](#Credits) 
-* [License](#License)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributions](#Contributions)
+- [Testing](#Testing)
+- [Credits](#Credits)
+- [License](#License)
 
-
-* [Contact](#Contact)
+- [Contact](#Contact)
 
 ## Installation
 
-run 'npm install' from command line in root directory
+to install use npm install (requires node.js)
 
 ## Usage
 
-enter 'node index.js' to run program and fill in all required fields'
+to run use node index.js
 
 ## Contributions
 
-any outside contribution can be sent through github
+fork and pull from gitub repository
 
 ## Testing
 
-no testing software was used in developing this project
+no testing used in development
 
 ## Credits
 
-this project was developed by Jacob Feitler
+this was made by Jacob Feitler
 
 ## License:
-  
+
 This project is licensed under the MIT license.
+
 ## Contact
 
 You can view my GitHub profile at [github.com/jacob-af](https://github.com/jacob-af)
 
 If you have any questions, comments, or suggestions you can send email to <jfeitler@gmail.com>.
-

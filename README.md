@@ -30,7 +30,7 @@ from the command line in the root directory and respond to each of the given pro
 
 ![demo.gif](./assets/gif/ez-readme-demo.gif)
 
-this can be viewed in higher resolution [here](https://drive.google.com/file/d/1uV3_PMqzpiQzI2mECijrX-MP1t0lg63f/view?usp=sharing)
+this can be viewed in higher resolution [here](https://drive.google.com/file/d/1ZxPekefZRIx-Nv1Csxf1PzD0n-aUP1CP/view)
 
 ## Contributions
 
