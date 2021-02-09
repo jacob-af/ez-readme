@@ -1,7 +1,7 @@
 // Include packages needed for this application
 import inquirer from "inquirer";
 import fs from "fs";
-import generateMarkdown from "./utils/generateMarkdown.js";
+import generateMarkdown from "./assets/utils/generateMarkdown.js";
 
 // Create an array of questions for user input
 const questions = [

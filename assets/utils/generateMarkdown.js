@@ -37,6 +37,8 @@ ${renderLicenseBadge(data.license)}
 
 ## About
 
+${data.description}
+
 ## Table of Contents
 
 * [Installation](#Installation)
