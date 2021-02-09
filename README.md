@@ -4,6 +4,8 @@
 
 ## About
 
+Creates a thorough new readme file in markdown syntax, perfect for your next project.
+
 ## Table of Contents
 
 - [Installation](#Installation)
@@ -16,23 +18,37 @@
 
 ## Installation
 
+To install, enter command  
+`npm install`  
+from command line in root directory. Must have node.js already installed.
+
 ## Usage
 
-![demo.gif](./ez-readme-demo.gif)
+Enter  
+`node index.js`  
+from the command line in the root directory and respond to each of the given prompts. Use the arrow keys to select the correct license or none from the presented options. After answering each prompt, you will be given the option of starting over prior the file being created. Your new readme file will be saved in the root directory as 'sampleREADME.md"
+
+![demo.gif](./assets/gif/ez-readme-demo.gif)
+
+this can be viewed in higher resolution [here](https://drive.google.com/file/d/1uV3_PMqzpiQzI2mECijrX-MP1t0lg63f/view?usp=sharing)
 
 ## Contributions
 
+Contributions can be made by forking the repository on gitHub and submitting a pull request.
+
+The repository can be found at [ez-readme](https://github.com/jacob-af/ez-readme)
+
 ## Testing
 
-adfs
+A testing library was not used in this project
 
 ## Credits
 
-asdf
+This project is original work of Jacob Feitler
 
 ## License:
 
-This project is licensed under the MIT
+This project is licensed under the MIT license, copywrite 2021
 
 ## Contact
 
