@@ -14,6 +14,7 @@ function renderLicenseLink(license) {
   if (license !== "none") {
     return `
 * [License](#License)
+
 `;
   } else {
     return "";
