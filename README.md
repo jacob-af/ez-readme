@@ -28,9 +28,11 @@ Enter
 `node index.js`  
 from the command line in the root directory and respond to each of the given prompts. Use the arrow keys to select the correct license or none from the presented options. After answering each prompt, you will be given the option of starting over prior the file being created. Your new readme file will be saved in the root directory as 'sampleREADME.md"
 
-![demo.gif](./assets/gif/ez-readme-demo.gif)
+![complete-terminal](./assets/images/terminal-complete.png)
+![rendered-readme](./assets/images/rendered-readme.png)
+![demo.gif](./assets/images/ez-readme-demo.gif)
 
-this can be viewed in higher resolution [here](https://drive.google.com/file/d/1ZxPekefZRIx-Nv1Csxf1PzD0n-aUP1CP/view)
+The video can be viewed in higher resolution [here](https://drive.google.com/file/d/1ZxPekefZRIx-Nv1Csxf1PzD0n-aUP1CP/view)
 
 ## Contributions
 
